@@ -12,4 +12,4 @@ Criminal names:
 8)Syed Salahuddin
 9)Veerappan
 
-Currently, My apploication can identify only above listed 9 criminals.
+Currently, My application can identify only above listed 9 criminals.
