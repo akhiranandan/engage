@@ -1,4 +1,4 @@
-My Web Application is helpful in crime prevention 
+My Web Application helps in crime prevention 
 It takes suspect's images and using face api, it identifies the criminal's name
 
 Criminal names:
@@ -13,3 +13,4 @@ Criminal names:
 9)Veerappan
 
 Currently, My application can identify only above listed 9 criminals.
+It works perfectly in Microsoft edge browser.
