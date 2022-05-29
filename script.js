@@ -54,7 +54,7 @@ function Criminal_Images_Load() {
       
       for (let i = 1; i <= 2; i++) 
       {
-        const img = await faceapi.fetchImage(`https://raw.githubusercontent.com/akhiranandan/Labeled_images/main/Criminal_images/${label}/${i}.jpg`)
+        const img = await faceapi.fetchImage(`Criminal_images/${label}/${i}.jpg`)
         const identity = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
         descriptions.push(identity.descriptor)
       }
