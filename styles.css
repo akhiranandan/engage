@@ -1,0 +1,39 @@
+body {
+    background-color: #002a3f;
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input[type="file"]{
+    display: none;
+}
+label
+{
+    color: white;
+    height: 60px;
+    width: 250px;
+    background-color: #f5af09;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+}
